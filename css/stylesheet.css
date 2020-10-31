@@ -1,0 +1,184 @@
+/* Global */
+
+body {
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Components */
+
+/* Navigation */
+.navigation {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+}
+
+.logo {
+    padding: 0rem 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    justify-self: flex-start;
+}
+
+nav {
+    margin-left: -6rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+nav ul {    
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0em 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFF495;
+    font-family: Roboto;
+    height: 30rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.callToAction {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+header a {
+    font-weight: bold;
+    color: black;
+}
+
+/* Main content */
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.col-left {
+    width: 50%;
+    flex-shrink: 1;
+    padding-left: 1rem;
+}
+
+.col-right {
+    width: 50%;
+    flex-shrink: 1;
+    padding-right: 1rem;
+}
+
+.spacer {
+    width: 5%;
+    flex-shrink: 0;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+.container p {
+    font-size: 1.5rem;
+    line-height: 1.6em;
+}
+
+/* Services */
+
+.services {
+    padding-top: 1rem;
+    background-color:#F8F8F8;
+}
+
+.commonservices {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+/* Services columns */
+
+.services-columns-container {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.card {
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 1rem;
+}
+
+.card p {
+    text-size: 1.25rem;
+    line-height: 1.5em;
+}
+
+.card h2 {
+    margin-top: 0rem;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+.contactInfo {
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    justify-content: center;
+}
+
+.contactSection {
+    padding: 2rem;
+}
