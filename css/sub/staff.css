@@ -1,12 +1,25 @@
 
 .staffContainer {
 display: flex;
-justify-content: center;   
+justify-content: center; 
+flex-wrap: wrap;  
 }
 
 .staffContent {
-    border: solid;
+    
     border-color: magenta;
-    width: 30%;
+    width: 33%;
     height: 400px;
+    box-sizing: border-box;
+}
+
+.staffImages {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin: auto;
+}
+
+.staffText {
+    text-align: center;
 }
