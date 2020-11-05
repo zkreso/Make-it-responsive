@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+.contactInfo {
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    justify-content: center;
+}
+
+.contactSection {
+    padding: 2rem;
+}

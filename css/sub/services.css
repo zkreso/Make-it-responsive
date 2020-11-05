@@ -1,0 +1,35 @@
+.services {
+    padding-top: 1rem;
+    background-color:#F8F8F8;
+}
+
+.commonservices {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+/* Services columns */
+
+.services-columns-container {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1rem;
+}
+
+.card p {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+}
+
+.card h2 {
+    margin-top: 0rem;
+}
