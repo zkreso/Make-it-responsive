@@ -1,0 +1,26 @@
+.container-about {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-content: center;
+}
+
+.about1 { 
+    width: 30%;
+
+}
+
+.about2 {
+    width: 30%;
+}
+
+.about3 {
+    width: 30%;
+}

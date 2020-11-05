@@ -1,6 +1,7 @@
-@import "footer.css";
-@import "global.css";
-@import "hero.css";
-@import "mainContent.css";
-@import "navigation.css";
-@import "services.css";
+@import "sub/footer.css";
+@import "sub/global.css";
+@import "sub/hero.css";
+@import "sub/mainContent.css";
+@import "sub/navigation.css";
+@import "sub/services.css";
+@import "sub/about-style.css";
