@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFF495;
+    font-family: Roboto;
+    height: 30rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.callToAction {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+header a {
+    font-weight: bold;
+    color: black;
+}

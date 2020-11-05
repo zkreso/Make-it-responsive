@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;    
+}
+
+.col-left {
+    min-width: 300px;
+    flex-grow: 1;
+    flex-basis: 42.5%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.col-right {
+    flex-grow: 1;
+    min-width: 300px;
+    flex-basis: 42.5%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.spacer {
+    width: 5%;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+.container p {
+    font-size: 1.5rem;
+    line-height: 1.6em;
+}
