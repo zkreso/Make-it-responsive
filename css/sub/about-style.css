@@ -1,26 +1,28 @@
 .container-about {
     display: flex;
     width: 100%;
-    max-width: 1300px;
+    /*max-width: 1300px;*/
     margin: auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-content: space-between;
-    align-content: center;
+}
+
+.img-about {
+    height: 400px;
 }
 
 .about1 { 
-    width: 30%;
+    width: 70%;
 
 }
 
 .about2 {
-    width: 30%;
+    width: 70%;
 }
 
 .about3 {
-    width: 30%;
+    width: 70%;
 }
