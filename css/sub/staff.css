@@ -3,12 +3,14 @@
 display: flex;
 justify-content: center; 
 flex-wrap: wrap;
+margin: 100px 0 0 0;
 }
 
 .staffIntro {
     width: 100%;
     height: 400px;
-    background-color: #fff495;  
+    background-color: #fff495;
+    margin-top: 100px;  
 }
 
 .staffContent {
@@ -19,12 +21,10 @@ flex-wrap: wrap;
 }
 
 .staffImages {
-    margin-top: 20px;
     width: 200px;
     height: 200px;
     display: block;
     margin: auto;
-    padding: 0 0 0 0;
     border-radius: 100px;
     box-sizing: border-box;
 }
@@ -48,8 +48,4 @@ flex-wrap: wrap;
     line-height: 2.5em;
     display: block;
     margin: auto;
-}
-
-.staffHero {
-    
 }
