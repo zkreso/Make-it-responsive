@@ -27,7 +27,6 @@ flex-wrap: wrap;
     padding: 0 0 0 0;
     border-radius: 100px;
     box-sizing: border-box;
-    /*box-shadow: 5px 5px 5px 5px lightgray;*/
 }
 
 .staffName {
@@ -49,4 +48,8 @@ flex-wrap: wrap;
     line-height: 2.5em;
     display: block;
     margin: auto;
+}
+
+.staffHero {
+    
 }
