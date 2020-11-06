@@ -5,21 +5,46 @@ justify-content: center;
 flex-wrap: wrap;  
 }
 
+.staffIntro {
+    width: 100%;
+    height: 400px;
+    background-color: #fff495;
+    border: solid;  
+}
+
 .staffContent {
-    
+    /*border: solid;*/
     border-color: magenta;
-    width: 33%;
+    width: 20%;
     height: 400px;
     box-sizing: border-box;
 }
 
 .staffImages {
-    width: 40%;
-    height: 40%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
     display: block;
     margin: auto;
+    padding: 0 0 0 0;
+    border-radius: 75px;
+    box-sizing: border-box;
+    /*box-shadow: 5px 5px 5px 5px lightgray;*/
+}
+
+.staffName {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.staffTitle {
+    color: darkslategray;
+    text-align: center;
 }
 
 .staffText {
     text-align: center;
+    font-style: italic;
+    color: darkslategray;
 }
