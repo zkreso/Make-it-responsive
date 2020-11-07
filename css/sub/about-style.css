@@ -1,11 +1,11 @@
-header {
+.aboutHeader {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     background-color: #FFF495;
     font-family: Roboto;
-    height: 30rem;
+    height: 15rem;
 }
 
 h1 {
@@ -24,34 +24,47 @@ h1 {
     padding-left: 1rem;
 }
 
-header a {
-    font-weight: bold;
-    color: black;
-}
-
-.container-about {
+.aboutContainer {
     display: flex;
     width: 100%;
-    /*max-width: 1300px;*/
-    margin: auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    max-width: 1300px;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 
-.img-about {
-    align-self: flex-end;
+.aboutContent {
+    flex-basis: 50%;
+    padding: 0.5rem 4rem;
+    box-sizing: border-box;
 }
 
-.img-about img{
-    width: 80vw;
-    max-width: 700px;
-    max-height: 300px;
+.aboutContent h2 {
+    text-align: center;
 }
 
-.about { 
-    align-self: center;
+.aboutContent p {
+    text-align: left;
 }
 
+.aboutImg {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.aboutImg img {
+    max-width: 70%;
+    border-radius: 500px;
+}
+
+@media only screen and (max-width:600px){
+    .aboutContent{
+        flex-basis: 100%;
+    }
+    .aboutImg {
+        display: none;
+    }
+}
