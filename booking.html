@@ -24,17 +24,26 @@
         <h1>We want to <strong>Help</strong> your enterprise reach your full <strong>Potential.</strong> <br><br><br> Set up your meeting with us today.</h1>
     </div>
 </header>
-
+<form action="booking.html" method="post" name="submissionForm">
     <div class="bookingContainer">
         <div class="a">
             <label for="bookingDate">Choose preferred time:</label>
             <input type="datetime-local" id="bookingDate" name="datetime-local">  
         </div>
-        <div class="a">
-            <p> - insert contact info form - </p>
+        <div id="b" class="a">
+            <input type="text" placeholder="What's the name of your company?" id="companyName" required>
+            <input type="text" placeholder="Write an emailadress we can reach you on." id="email" required>
         </div>
         <div class="a">
-            <p> - insert radio buttons - </p>
+            <fieldset>
+                <legend>What service(s) provided by us are you interested in?</legend>
+                <label for="hostCamp">Hosting a frugal innovation camp for your employees</label>
+                <input id="hostCamp" name="service" type="checkbox" value="hostCamp">
+                <label for="hostCamp">Consulting your business on frugal projects</label>
+                <input id="consulting" name="service" type="checkbox" value="consulting">
+                <label for="hostCamp">More information about frugal innovation</label>
+                <input id="info" name="service" type="checkbox" value="info">
+            </fieldset>
         </div>
         <div class="a">
             <input type="text" placeholder="Booking title" id="bookingTitle">
@@ -44,10 +53,10 @@
         </div>
         <div class="a">
             <label for="bookingSubmit">Make sure your personal information is provided correctly and submit:</label>
-            <input type="button" value="Submit" id="bookingSubmit">
+            <button type="submit" id="bookingSubmit">Submit</button>
         </div>
     </div>
-
+</form>
 
 <footer id="Contact">
     <h2>Contact Information</h2>
