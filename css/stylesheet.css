@@ -250,28 +250,6 @@ header a {
     box-sizing: border-box;
 }
 
-/*.col-left {
-    min-width: 300px;
-    flex-grow: 1;
-    flex-basis: 42.5%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    box-sizing: border-box;
-}
-
-.col-right {
-    flex-grow: 1;
-    min-width: 300px;
-    flex-basis: 42.5%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    box-sizing: border-box;
-}
-
-.spacer {
-    width: 5%;
-}*/
-
 h2 {
     font-family: 'Roboto';
     font-size: 1.8rem;
