@@ -123,7 +123,12 @@ h2 {
     .articlesContent{
         flex-basis: 100%;
         max-width: 100%;
-        text-align: center;
+        justify-self: center;
+    }
+
+    .articlesContent img {
+        display: block;
+        margin: auto;
     }
     
     .articlesContent h2 {
@@ -132,8 +137,8 @@ h2 {
     }
 
     .articlesContent p {
-        text-align: 100%;
         max-width: 100%;
+        text-align: center;
         height: 70px;
     }
 }
