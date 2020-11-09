@@ -1,7 +1,9 @@
 .bookingContainer {
     display: flex;
     width: 100%;
-    margin: 100px 0 100px 0;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     justify-content: center;
     flex-flow: column wrap;
     max-width: 1300px;
@@ -49,6 +51,10 @@ input {
     font-style: italic;
 }
 
-#b {
+#companyName {
+    width: 800px;
+}
+
+#email {
     width: 800px;
 }
