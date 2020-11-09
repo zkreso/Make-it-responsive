@@ -54,9 +54,12 @@ input {
     margin: 25px 0 25px;
     display: flex;
     justify-content: flex-start;
-    border: solid;
 }
 
-.bookingServices {
+/*.bookingServices {
     list-style-type: none;
+}*/
+
+fieldset li {
+    list-style: none;
 }
