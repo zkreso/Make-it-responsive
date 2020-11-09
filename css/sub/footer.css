@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.contactInfo {
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    justify-content: space-around;
+}
+
+.contactSection {
+    display: flex;
+    padding: 25px 0 50px 0;
+}
+
+.contactAtribute {
+    padding-right: 18px;
+}
+
+@media only screen and (max-width: 950px){
+    .contactInfo {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contactSection {
+        flex-direction: column; 
+        padding: 20px 0 30px 0;
+    }
+    .contactAtribute {
+        padding-right: 0;
+    }
+}

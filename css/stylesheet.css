@@ -1,0 +1,518 @@
+/* about */
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.aboutContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.aboutContent {
+    flex-basis: 50%;
+    padding: 0.5rem 4rem;
+    box-sizing: border-box;
+}
+
+.aboutContent h2 {
+    text-align: center;
+}
+
+.aboutContent p {
+    text-align: left;
+}
+
+.aboutImg {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    flex-grow: 0.22;
+    margin-top: -240px;
+}
+
+.aboutImg img {
+    max-width: 90%;
+    border-radius: 500px;
+}
+
+.aboutContainer p {
+    font-size: 1.5rem;
+    line-height: 1.6em;
+}
+
+@media only screen and (max-width:600px){
+    .aboutContent{
+        flex-basis: 100%;
+    }
+    .aboutImg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .aboutContent{
+        flex-basis: 100%;
+    }
+    .aboutImg img {
+        max-width: 120%;
+        margin-top: 250px;
+    }
+}
+
+/* booking */
+
+.bookingContainer {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    flex-flow: column wrap;
+    max-width: 1300px;
+}
+
+.bookingContent {
+    flex-basis: 40%;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0 50px 0;
+    align-content: center;
+}
+
+#bookingMessage {
+    flex-basis: 200px;
+    font-style: italic;
+    width: 800px;
+}
+
+#bookingTitle {
+    flex: 0 0 50px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: serif;
+    width: 800px;
+}
+
+#bookingDate {
+    font-size: 30px;
+}
+
+#bookingSubmit {
+    flex: 0 0 10%;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 800px;
+}
+
+input {
+    font-style: italic;
+}
+
+.bookingContactInfo {
+    width: 800px;
+    margin: 25px 0 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+fieldset li {
+    list-style: none;
+}
+
+fieldset label {
+    float: left;
+}
+
+fieldset input {
+    float: right;   
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.contactInfo {
+    display: flex;
+    margin: auto;
+    max-width: 1300px;
+    justify-content: space-around;
+}
+
+.contactSection {
+    display: flex;
+    padding: 25px 0 50px 0;
+}
+
+.contactAtribute {
+    padding-right: 18px;
+}
+
+@media only screen and (max-width: 950px){
+    .contactInfo {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contactSection {
+        flex-direction: column; 
+        padding: 20px 0 30px 0;
+    }
+    .contactAtribute {
+        padding-right: 0;
+    }
+}
+
+/* global */
+
+body {
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* hero */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFF495;
+    font-family: Roboto;
+    height: 20rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.callToAction {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+header a {
+    font-weight: bold;
+    color: black;
+}
+
+/* main content */
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;    
+}
+
+.mainContent{
+    min-width: 300px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+}
+
+.mainContainer p {
+    font-size: 1.5rem;
+    line-height: 1.6em;
+}
+
+.mainContent p a{
+        text-decoration: underline;
+        color: black;
+        font-style: italic;
+}
+
+.space {
+    height: 100px;
+    width: 100%;
+    background-color: #FFF495;
+    margin-top: -40px;
+}
+
+.articlesContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;    
+}
+
+.articlesContent{
+    min-width: 300px;
+    max-width: 50%;
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.articlesContent img {
+    border-radius: 5px;
+    height: 260px;
+    width: 260px;
+
+}
+
+.articlesContent h2 {
+    font-size: 1.5rem;
+    max-width: 350px;
+    height: 50px;
+}
+
+.articlesContent p {
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    max-width: 350px;
+    height: 100px;
+}
+
+.articlesContent h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.articlesContent p a{
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+}
+
+@media only screen and (max-width:950px){
+    .mainContent{
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .articlesContent{
+        flex-basis: 100%;
+        max-width: 100%;
+        justify-self: center;
+    }
+
+    .articlesContent img {
+        display: block;
+        margin: auto;
+    }
+    
+    .articlesContent h2 {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .articlesContent p {
+        max-width: 100%;
+        text-align: center;
+        height: 70px;
+    }
+}
+
+/* navigation */
+
+.navigation {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    padding: 1rem 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    justify-self: flex-start;
+    margin-right: 5rem;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    position: relative;
+    right: 5rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* services */
+
+.services {
+    padding-top: 1rem;
+    background-color:#F8F8F8;
+}
+
+.commonservices {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.services-columns-container {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1rem;
+}
+
+.card p {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+}
+
+.card h2 {
+    margin-top: 0rem;
+}
+
+/* staff */
+
+.staffContainer {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    
+    .staffIntro {
+        width: 100%;
+        height: 420px;
+        background-color: #fff495;  
+    }
+    
+    .staffContent {
+        flex-basis: 33%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .staffImages {
+        width: 220px;
+        height: 220px;
+        display: block;
+        margin: auto;
+        border-radius: 200px;
+        box-sizing: border-box;
+    }
+    
+    .staffName {
+        text-align: center;
+        font-weight: bold;
+    
+    }
+    
+    .staffTitle {
+        color: darkslategray;
+        text-align: center;
+    }
+    
+    .staffText {
+        text-align: center;
+        font-style: italic;
+        color: darkslategray;
+        width: 70%;
+        line-height: 2.5em;
+        display: block;
+        margin: auto;
+    }
+    
+    @media only screen and (max-width:950px){
+        .staffContent{
+            flex-basis: 50%;
+        }
+    }
+    
+    @media only screen and (max-width:600px){
+        .staffContent{
+            flex-basis: 100%;
+            margin-bottom: 35px;
+        }
+    }
+    
