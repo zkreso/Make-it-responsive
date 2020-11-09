@@ -1,6 +1,9 @@
+@import "sub/staff.css";
 @import "sub/footer.css";
 @import "sub/global.css";
 @import "sub/hero.css";
 @import "sub/mainContent.css";
 @import "sub/navigation.css";
 @import "sub/services.css";
+@import "sub/booking.css";
+@import "sub/about.css";

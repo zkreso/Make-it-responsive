@@ -1,4 +1,4 @@
-.container {
+.mainContainer {
     display: flex;
     width: 100%;
     max-width: 1300px;
@@ -8,31 +8,115 @@
     flex-wrap: wrap;    
 }
 
-.col-left {
+.mainContent{
     min-width: 300px;
     flex-grow: 1;
-    flex-basis: 42.5%;
+    flex-basis: 50%;
     padding-left: 1rem;
     padding-right: 1rem;
-}
-
-.col-right {
-    flex-grow: 1;
-    min-width: 300px;
-    flex-basis: 42.5%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.spacer {
-    width: 5%;
+    box-sizing: border-box;
 }
 
 h2 {
     font-family: 'Roboto';
+    font-size: 1.8rem;
 }
 
-.container p {
+.mainContainer p {
     font-size: 1.5rem;
     line-height: 1.6em;
+}
+
+.mainContent p a{
+        text-decoration: underline;
+        color: black;
+        font-style: italic;
+}
+
+.space {
+    height: 100px;
+    width: 100%;
+    background-color: #FFF495;
+    margin-top: -40px;
+}
+
+.articlesContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;    
+}
+
+.articlesContent{
+    min-width: 300px;
+    max-width: 50%;
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.articlesContent img {
+    border-radius: 5px;
+    height: 260px;
+    width: 260px;
+
+}
+
+.articlesContent h2 {
+    font-size: 1.5rem;
+    max-width: 350px;
+    height: 50px;
+}
+
+.articlesContent p {
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    max-width: 350px;
+    height: 100px;
+}
+
+.articlesContent h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.articlesContent p a{
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+}
+
+@media only screen and (max-width:950px){
+    .mainContent{
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .articlesContent{
+        flex-basis: 100%;
+        max-width: 100%;
+        justify-self: center;
+    }
+
+    .articlesContent img {
+        display: block;
+        margin: auto;
+    }
+    
+    .articlesContent h2 {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .articlesContent p {
+        max-width: 100%;
+        text-align: center;
+        height: 70px;
+    }
 }

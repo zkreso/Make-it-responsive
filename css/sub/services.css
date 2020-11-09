@@ -9,8 +9,6 @@
     font-weight: 300;
 }
 
-/* Services columns */
-
 .services-columns-container {
     display: flex;
     max-width: 1300px;
