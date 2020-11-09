@@ -9,7 +9,7 @@
     max-width: 1300px;
 }
 
-.a {
+.bookingContent {
     flex-basis: 40%;
     flex-flow: column wrap;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ input {
     font-style: italic;
 }
 
-.contactInfo {
+.bookingContactInfo {
     width: 800px;
     margin: 25px 0 25px;
     display: flex;
@@ -62,4 +62,12 @@ input {
 
 fieldset li {
     list-style: none;
+}
+
+fieldset label {
+    float: left;
+}
+
+fieldset input {
+    float: right;   
 }

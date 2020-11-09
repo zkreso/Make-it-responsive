@@ -26,21 +26,21 @@
 
         <main class="bookingContainer">
             <form action="booking.html" method="post" name="submissionForm">
-                <div class="a">
+                <div class="bookingContent">
                     <label for="bookingDate">Choose preferred time:</label>
                     <input type="datetime-local" id="bookingDate" name="datetime-local">  
                 </div>
-                <div class="a">
-                    <div class="contactInfo">
+                <div class="bookingContent">
+                    <div class="bookingContactInfo">
                         <label for="companyName">Company:</label>
                         <input type="text" placeholder="What's the name of your company?" id="companyName" required>
                     </div>
-                    <div class="contactInfo">
+                    <div class="bookingContactInfo">
                         <label for="email">Email:</label>
                         <input type="text" placeholder="Write an emailadress we can reach you on." id="email" required>
                     </div>
                 </div>
-                <div class="a">
+                <div class="bookingContent">
                     <fieldset>
                         <legend>What service(s) provided by us are you interested in?</legend>
                         <li class="bookingServices">
@@ -57,13 +57,13 @@
                         </li>
                     </fieldset>
                 </div>
-                <div class="a">
+                <div class="bookingContent">
                     <input type="text" placeholder="Booking title" id="bookingTitle">
                 </div>
-                <div class="a">
+                <div class="bookingContent">
                     <input type="text" placeholder="Provide more specific information about your request (optional)." id="bookingMessage">
                 </div>
-                <div class="a">
+                <div class="bookingContent">
                     <label for="bookingSubmit">Make sure your personal information is provided correctly and submit:</label>
                     <button type="submit" id="bookingSubmit">Submit</button>
                 </div>
