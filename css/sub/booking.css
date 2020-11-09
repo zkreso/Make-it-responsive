@@ -1,20 +1,22 @@
 .bookingContainer {
     display: flex;
     width: 100%;
-    margin: 100px 0 100px 0;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     justify-content: center;
     flex-flow: column wrap;
     max-width: 1300px;
 }
 
-.a {
+.bookingContent {
     flex-basis: 40%;
     flex-flow: column wrap;
     box-sizing: border-box;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    margin: 10px 0 10px 0;
+    margin: 50px 0 50px 0;
     align-content: center;
 }
 
@@ -25,8 +27,7 @@
 }
 
 #bookingTitle {
-    flex: 0 0 40%;
-    height: 50px;
+    flex: 0 0 50px;
     font-weight: bold;
     font-size: 30px;
     font-family: serif;
@@ -39,7 +40,6 @@
 
 #bookingSubmit {
     flex: 0 0 10%;
-    height: 50px;
     border-radius: 25px;
     font-size: 20px;
     width: 800px;
@@ -49,6 +49,25 @@ input {
     font-style: italic;
 }
 
-#b {
+.bookingContactInfo {
     width: 800px;
+    margin: 25px 0 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*.bookingServices {
+    list-style-type: none;
+}*/
+
+fieldset li {
+    list-style: none;
+}
+
+fieldset label {
+    float: left;
+}
+
+fieldset input {
+    float: right;   
 }
