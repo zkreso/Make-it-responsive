@@ -56,10 +56,6 @@ input {
     justify-content: flex-start;
 }
 
-/*.bookingServices {
-    list-style-type: none;
-}*/
-
 fieldset li {
     list-style: none;
 }
