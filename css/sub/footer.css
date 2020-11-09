@@ -7,7 +7,8 @@ footer {
 footer h2 {
     font-weight: 300;
     font-size: 2rem;
-    padding-top: 1em;
+    padding-top: 32px;
+    padding-bottom: 10px;
     margin: auto;
     text-align: center;
 }
@@ -16,9 +17,28 @@ footer h2 {
     display: flex;
     margin: auto;
     max-width: 1300px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .contactSection {
-    padding: 2rem;
+    display: flex;
+    padding: 25px 0 50px 0;
+}
+
+.contactAtribute {
+    padding-right: 18px;
+}
+
+@media only screen and (max-width: 950px){
+    .contactInfo {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contactSection {
+        flex-direction: column; 
+        padding: 20px 0 30px 0;
+    }
+    .contactAtribute {
+        padding-right: 0;
+    }
 }
