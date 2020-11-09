@@ -19,7 +19,7 @@
                 </ul>
             </nav>
         </div>
-        
+
         <header>
             <div class="staffIntro">
                 <h1>We want to <strong>Help</strong> your enterprise reach your full <strong>Potential.</strong> <br><br><br> Set up your meeting with us today.</h1>
@@ -33,18 +33,30 @@
                     <input type="datetime-local" id="bookingDate" name="datetime-local">  
                 </div>
                 <div class="a">
-                    <input type="text" placeholder="What's the name of your company?" id="companyName" required>
-                    <input type="text" placeholder="Write an emailadress we can reach you on." id="email" required>
+                    <div class="contactInfo">
+                        <label for="companyName">Company:</label>
+                        <input type="text" placeholder="What's the name of your company?" id="companyName" required>
+                    </div>
+                    <div class="contactInfo">
+                        <label for="email">Email:</label>
+                        <input type="text" placeholder="Write an emailadress we can reach you on." id="email" required>
+                    </div>
                 </div>
                 <div class="a">
                     <fieldset>
                         <legend>What service(s) provided by us are you interested in?</legend>
-                        <label for="hostCamp">Hosting a frugal innovation camp for your employees</label>
-                        <input id="hostCamp" name="service" type="checkbox" value="hostCamp">
-                        <label for="hostCamp">Consulting your business on frugal projects</label>
-                        <input id="consulting" name="service" type="checkbox" value="consulting">
-                        <label for="hostCamp">More information about frugal innovation</label>
-                        <input id="info" name="service" type="checkbox" value="info">
+                        <li class="bookingServices">
+                            <label for="hostCamp">Hosting a frugal innovation camp for your employees</label>
+                            <input id="hostCamp" name="service" type="checkbox" value="hostCamp">
+                        </li>
+                        <li class="bookingServices">
+                            <label for="hostCamp">Consulting your business on frugal projects</label>
+                            <input id="consulting" name="service" type="checkbox" value="consulting">
+                        </li>
+                        <li class="bookingServices">
+                            <label for="hostCamp">More information about frugal innovation</label>
+                            <input id="info" name="service" type="checkbox" value="info">
+                        </li>
                     </fieldset>
                 </div>
                 <div class="a">
