@@ -27,6 +27,7 @@ h1 {
 
 .aboutContent h2 {
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .aboutContent p {
@@ -38,7 +39,8 @@ h1 {
     box-sizing: border-box;
     text-align: center;
     flex-grow: 0.22;
-    margin-top: -240px;
+    justify-self: flex-end;
+    
 }
 
 .aboutImg img {
@@ -47,8 +49,23 @@ h1 {
 }
 
 .aboutContainer p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.6em;
+}
+
+.aboutContainer ul {
+    padding-top: 10px;
+}
+
+.aboutContainer li {
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    padding-left: 10px;
+}
+
+.aboutContent ul li::marker {
+    content:"•";
+    color: #d5c324;
 }
 
 @media only screen and (max-width:600px){
@@ -66,7 +83,7 @@ h1 {
     }
     .aboutImg img {
         max-width: 120%;
-        margin-top: 250px;
+        margin-top: 60px;
     }
 }
 
@@ -117,6 +134,10 @@ h1 {
     border-radius: 25px;
     font-size: 20px;
     width: 800px;
+}
+
+#bookingSubmit:hover{
+    font-size: 23px;
 }
 
 input {
@@ -256,7 +277,7 @@ h2 {
 }
 
 .mainContainer p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.6em;
 }
 
@@ -264,6 +285,11 @@ h2 {
         text-decoration: underline;
         color: black;
         font-style: italic;
+}
+
+.mainContent a:hover{
+    font-size: 103%;
+    background-color: #fff49566;
 }
 
 .space {
@@ -322,6 +348,19 @@ h2 {
     text-decoration: underline;
     color: black;
     font-style: italic;
+}
+
+.articlesContent a img:hover{
+    opacity: 0.92;
+}
+
+.articlesContent h2 a:hover{
+    text-decoration: underline;
+}
+
+.articlesContent p a:hover{
+    font-size: 107%;
+    background-color: #fff49566;
 }
 
 @media only screen and (max-width:950px){
