@@ -21,12 +21,11 @@ h1 {
 
 .aboutContent {
     flex-basis: 50%;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 1rem 0 1rem;
     box-sizing: border-box;
 }
 
 .aboutContent h2 {
-    text-align: center;
     padding-bottom: 15px;
 }
 
@@ -49,7 +48,7 @@ h1 {
 }
 
 .aboutContainer p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 1.6em;
 }
 
@@ -58,7 +57,7 @@ h1 {
 }
 
 .aboutContainer li {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.6em;
     padding-left: 10px;
 }
@@ -114,7 +113,7 @@ h1 {
 #bookingMessage {
     flex-basis: 200px;
     font-style: italic;
-    width: 800px;
+    width: 80vw;
 }
 
 #bookingTitle {
@@ -122,7 +121,7 @@ h1 {
     font-weight: bold;
     font-size: 30px;
     font-family: serif;
-    width: 800px;
+    width: 80vw;
 }
 
 #bookingDate {
@@ -133,7 +132,7 @@ h1 {
     flex: 0 0 10%;
     border-radius: 25px;
     font-size: 20px;
-    width: 800px;
+    width: 80%;
 }
 
 #bookingSubmit:hover{
@@ -226,7 +225,7 @@ header {
     width: 100%;
     background-color: #FFF495;
     font-family: Roboto;
-    height: 20rem;
+    height: 22rem;
 }
 
 h1 {
@@ -248,6 +247,18 @@ h1 {
 header a {
     font-weight: bold;
     color: black;
+}
+
+@media only screen and (max-width:600px){
+    header {
+        height: 24rem;
+    }
+    h1{
+        font-size: 2.6rem;
+    }
+    .callToAction {
+        font-size: 1.25rem;
+    }
 }
 
 /* main content */
@@ -277,7 +288,7 @@ h2 {
 }
 
 .mainContainer p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 1.6em;
 }
 
@@ -389,7 +400,7 @@ h2 {
     .articlesContent p {
         max-width: 100%;
         text-align: center;
-        height: 70px;
+        margin-bottom: 25px;
     }
 }
 
@@ -452,10 +463,34 @@ nav a:hover {
 
 @media only screen and (max-width:700px){
     nav ul {
-        justify-content: flex-end;
+        justify-content: space-around;
     }
     nav li {
         width: 40%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .navigation {
+        flex-direction: column;
+    }
+    .navbar {
+        justify-self: center;
+    }
+    .logo {
+        flex-basis: 100%;
+        justify-self: center;
+        margin-right: 0rem;
+        padding: 1rem 0 0.5rem 0;
+    }
+    nav li {
+        right: 0;
+        width: 20%;
+    }
+    nav a {
+        justify-self: center;
+        text-align: center;
+        font-size: 0.75rem;
     }
 }
 
