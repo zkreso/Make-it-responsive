@@ -426,6 +426,7 @@ nav li {
     list-style: none;
     position: relative;
     right: 5rem;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -447,6 +448,15 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width:700px){
+    nav ul {
+        justify-content: flex-end;
+    }
+    nav li {
+        width: 40%;
+    }
 }
 
 /* services */
