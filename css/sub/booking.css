@@ -15,9 +15,14 @@
     box-sizing: border-box;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
-    margin: 50px 0 50px 0;
+    /*justify-content: space-evenly;*/
+    margin: auto;
     align-content: center;
+}
+
+.bookingContent p {
+    font-size: 1.3rem;
+    line-height: 1.6em;
 }
 
 #bookingMessage {
