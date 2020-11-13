@@ -88,79 +88,7 @@ h1 {
 
 /* booking */
 
-.bookingContainer {
-    display: flex;
-    width: 100%;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    justify-content: center;
-    flex-flow: column wrap;
-    max-width: 1300px;
-}
 
-.bookingContent {
-    flex-basis: 40%;
-    flex-flow: column wrap;
-    box-sizing: border-box;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 50px 0 50px 0;
-    align-content: center;
-}
-
-#bookingMessage {
-    flex-basis: 200px;
-    font-style: italic;
-    width: 80vw;
-}
-
-#bookingTitle {
-    flex: 0 0 50px;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: serif;
-    width: 80vw;
-}
-
-#bookingDate {
-    font-size: 30px;
-}
-
-#bookingSubmit {
-    flex: 0 0 10%;
-    border-radius: 25px;
-    font-size: 20px;
-    width: 80%;
-}
-
-#bookingSubmit:hover{
-    font-size: 23px;
-}
-
-input {
-    font-style: italic;
-}
-
-.bookingContactInfo {
-    width: 800px;
-    margin: 25px 0 25px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-fieldset li {
-    list-style: none;
-}
-
-fieldset label {
-    float: left;
-}
-
-fieldset input {
-    float: right;   
-}
 
 /* footer */
 
@@ -299,7 +227,6 @@ h2 {
 }
 
 .mainContent a:hover{
-    font-size: 103%;
     background-color: #fff49566;
 }
 
@@ -315,7 +242,7 @@ h2 {
     width: 100%;
     max-width: 1300px;
     margin: auto;
-    padding-top: 20px;
+    margin-bottom: 3rem;
     flex-wrap: wrap;    
 }
 
@@ -323,10 +250,9 @@ h2 {
     min-width: 300px;
     max-width: 50%;
     flex-grow: 1;
-    flex-basis: 100%;
+    flex-basis: 50%;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 20px;
     box-sizing: border-box;
 }
 
@@ -334,25 +260,11 @@ h2 {
     border-radius: 5px;
     height: 260px;
     width: 260px;
-
-}
-
-.articlesContent h2 {
-    font-size: 1.5rem;
-    max-width: 350px;
-    height: 50px;
 }
 
 .articlesContent p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.6em;
-    max-width: 350px;
-    height: 100px;
-}
-
-.articlesContent h2 a{
-    text-decoration: none;
-    color: black;
 }
 
 .articlesContent p a{
@@ -362,7 +274,6 @@ h2 {
 }
 
 .articlesContent p a:hover{
-    font-size: 107%;
     background-color: #fff49566;
 }
 
@@ -483,6 +394,7 @@ nav a:hover {
         margin-right: 0rem;
         padding: 1rem 0 0.5rem 0;
     }
+
     nav li {
         right: 0;
         width: 20%;
@@ -519,7 +431,6 @@ nav a:hover {
     display: flex;
     max-width: 1300px;
     margin: auto;
-    padding-bottom: 3rem;
     flex-wrap: wrap;
 }
 
